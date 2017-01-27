@@ -11,6 +11,8 @@ npm install
 ng serve
 ```
 
+<img src="full_app_example.png" />
+
 
 # assignment 1
 - Apply styling to the app
