@@ -11,7 +11,7 @@ npm install
 ng serve
 ```
 
-<img src="full_app_example.png" />
+<img src="full_example_app.png" />
 
 
 # assignment 1
