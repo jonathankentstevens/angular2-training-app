@@ -1,0 +1,19 @@
+<h1>Todo List</h1>
+<div class="todosContainer">
+  <input class="newTodo" placeholder="What needs to be done?" [(ngModel)]="newTodo.task"
+         (keyup.enter)="addTodo()" autofocus="">
+  <section class="todosBody">
+    <div class="todoList">
+      <section *ngFor="let todo of todos" [class.completed]="todo.completed" class="todo">
+        <input type="checkbox" class="toggle" style="width: 5%;">
+        <input type="text" class="todoEditable" (keyup.enter)="updateTask(todo, $event)" value="{{todo.task}}" style="width: 80%;">
+        <div class="todoActions">
+          <img class="todoAction"
+               src="../../assets/img/remove.svg"
+               (click)="removeTodo(todo)"/>
+        </div>
+      </section>
+    </div>
+  </section>
+</div>
+

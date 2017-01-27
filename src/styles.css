@@ -1,1 +1,87 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.dialogContainer {
+  background: #1ABC9C;
+  height: 79%;
+  padding: 5%;
+}
+
+.dialogCard {
+  height: 30%;
+  width: 35%;
+  margin: 0 auto;
+  text-align: center;
+  background: #f2f2f2;
+}
+
+.dialogForm {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+
+.dialogActions {
+  padding: 5%;
+}
+
+.dialogError {
+  color: red;
+  font-style: italic;
+}
+
+.modalContainer {
+  display: none;
+  width: 450px;
+  height: 300px;
+  margin: auto;
+  position: absolute;
+  top: 25%;
+  left: 33%;
+  z-index: 1000;
+  background: #f2f2f2;
+  box-shadow: 5px 5px 15px #888888;
+  -webkit-filter: blur(0px);
+  -moz-filter: blur(0px) !important;
+  -o-filter: blur(0px) !important;;
+  -ms-filter: blur(0px) !important;;
+  filter: blur(0px) !important;;
+}
+
+.modalWrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.modalHeader {
+  height: 12%;
+  padding: 6%;
+  font-size: 2em;
+  background: #FFF;
+  border-bottom: 1px solid gray;
+}
+
+.modalContent {
+  height: 34%;
+  padding: 5%;
+}
+
+.modalActions {
+  padding: 2% 5%;
+  height: 15%;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+}
+
+.modalFooter {
+  width: 100%;
+  height: 50px;
+}

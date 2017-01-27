@@ -1,0 +1,39 @@
+.navbar {
+  background: #1ABC9C;
+  height: 5%;
+  color: #FFF;
+}
+
+#toolbarTitle > a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+/* Main button */
+.mainBtn {
+  background: #1ABC9C;
+  color: #FFF;
+  font-weight: bold;
+  padding: 10px;
+  width: 80px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 1%;
+  border: 1px solid #1ABC9C;
+}
+
+.mainBtn:hover {
+  color: #1ABC9C;
+  background: #FFF;
+  border: 1px solid #1ABC9C;
+}
+
+.mainBtn:active {
+  outline: none;
+  color: #1ABC9C;
+}
+
+.mainBtn:focus {
+  outline: none;
+}
+
