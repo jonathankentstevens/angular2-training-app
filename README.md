@@ -17,6 +17,7 @@ ng serve
 # assignment 1
 - Apply material styling to the app
    - https://material.angular.io/
+   - example reference: https://material2-app.firebaseapp.com/
 
 # assignment 2
 - When checkbox is clicked, apply a class that grays out that text and remove svg and applies a strikethrough line to show the task has been completed
