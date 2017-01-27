@@ -7,7 +7,7 @@ Simple Angular 2 todo application used for training new Angular developers
 
 ```
 git clone https://github.com/jonathankentstevens/angular2-training-app.git
-[sudo] npm install
+sudo npm install
 ng serve
 ```
 
